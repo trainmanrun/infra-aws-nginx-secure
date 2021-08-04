@@ -27,7 +27,7 @@ sudo amazon-linux-extras install -y epel
 sudo yum install -y certbot-apache
 sudo certbot certonly --standalone --preferred-challenges http -d <Route-53-A-Record-name> --register-unsafely-without-email
 ```
-7. Configure the certificates as describe in [Step 3] (https://www.digitalocean.com/community/tutorials/how-to-use-certbot-standalone-mode-to-retrieve-let-s-encrypt-ssl-certificates-on-centos-7). This will lead you to:
+7. Configure the certificates as describe in [Step 3](https://www.digitalocean.com/community/tutorials/how-to-use-certbot-standalone-mode-to-retrieve-let-s-encrypt-ssl-certificates-on-centos-7). This will lead you to:
 - Update /etc/nginx/nginx.conf
 - Restarting nginx
 ```
