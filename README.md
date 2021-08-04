@@ -32,7 +32,7 @@ sudo certbot certonly --standalone --preferred-challenges http -d <Route-53-A-Re
 - Update /etc/nginx/nginx.conf
 - Start back nginx
 ```
-sudo systemctl restart nginx
+sudo systemctl start nginx
 ```
 
 8. Test that certificate works! Which means on a desktop browser padlock closes when you access
